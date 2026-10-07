@@ -1,0 +1,12 @@
+{
+  "name": "ship-kit",
+  "description": "ship-kit: a Haiku + Sonnet + Opus workflow for Claude Code",
+  "owner": { "name": "Dennis Campos", "url": "https://github.com/denniscampos" },
+  "plugins": [
+    {
+      "name": "ship-kit",
+      "source": "./",
+      "description": "/ship a feature or bug fix: Haiku scouts explore, Sonnet builds, Opus reviews, screenshots prove it."
+    }
+  ]
+}

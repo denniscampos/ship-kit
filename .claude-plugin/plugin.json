@@ -1,0 +1,10 @@
+{
+  "name": "ship-kit",
+  "description": "Build features and fix bugs with the right model for each job: Haiku scouts explore, Sonnet builds, Opus reviews at checkpoints. Screenshot proof required.",
+  "version": "1.0.0",
+  "author": { "name": "Dennis Campos", "url": "https://github.com/denniscampos" },
+  "homepage": "https://github.com/denniscampos/ship-kit",
+  "repository": "https://github.com/denniscampos/ship-kit",
+  "license": "MIT",
+  "keywords": ["workflow", "subagents", "code-review", "haiku", "sonnet", "opus"]
+}
