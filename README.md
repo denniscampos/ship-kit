@@ -2,9 +2,11 @@
 
 A [Claude Code](https://code.claude.com) plugin that uses the right model for each part of the job.
 
-```
-/ship-kit:ship Double-clicking Pay applies the coupon twice
-```
+<p align="center">
+  <img src="docs/demo.gif" alt="An example ship-kit run in the terminal. Haiku scouts the codebase, Sonnet plans and builds with an Opus checkpoint, a failing test is made to pass, screenshots are saved, and Opus gives the final review." width="800">
+  <br>
+  <sub>An example run on a double-submit bug.</sub>
+</p>
 
 | Model | Role | What it does |
 |---|---|---|
@@ -13,6 +15,8 @@ A [Claude Code](https://code.claude.com) plugin that uses the right model for ea
 | **Opus** | `reviewer` | Reviews at 3 checkpoints. Read-only. |
 
 Cheap, fast models do the reading, a solid model does the building, and the strongest model is only called when its judgment matters.
+
+I wrote more about why it works this way in [Haiku Reads, Sonnet Builds, Opus Reviews](https://www.denniscampos.com/blog/haiku-reads-sonnet-builds-opus-reviews).
 
 ## Install
 
